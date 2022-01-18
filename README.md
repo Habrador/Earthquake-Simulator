@@ -1,4 +1,4 @@
-# Earthquake-Simulator
+# Earthquake Simulator in Unity
 
 Simulation of how buildings behave during an earthquake. The basic ideas comes from an old school book of mine called "Differential Equations with Boundary-Value Probles" by Zill and Cullen. The chaprter itself is called "Earthquake shaking of multistory buildings." The basic idea is that you connect each floor with a spring and then simulate each spring with Euler Forward.
 

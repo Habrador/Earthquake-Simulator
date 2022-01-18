@@ -20,12 +20,10 @@ public class BuildingShaker : MonoBehaviour
     //float c = 1000f; // kg/s
 
     public float m;
-    float k;
-    float c;
+    private float k;
+    private float c;
 
-    //Save the start position of the building in global coordinates
-    //relative to the center of the ground
-    //so the building can be positioned everywhere
+    //Save the start position of the building in global coordinates relative to the center of the ground so the building can be positioned everywhere
     Vector3 startPos;
 
 

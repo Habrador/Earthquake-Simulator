@@ -15,11 +15,11 @@ public class BuildingShaker : MonoBehaviour
     private Vector3[] velArray;
 
     //Building parameters
-    //float m = 5000f; // kg / floor
+    //float m = 5000f; // kg/floor
     //float k = 10000f; // kg/s^2
     //float c = 1000f; // kg/s
 
-    public float m;
+    private float m = 5000;
     private float k;
     private float c;
 
